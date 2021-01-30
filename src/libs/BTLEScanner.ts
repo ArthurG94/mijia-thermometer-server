@@ -7,7 +7,7 @@ class BTLEScanner extends EventEmitter2 {
 
 	private timeout: number
 
-	public constructor(timeout: number) {
+	public constructor(timeout: number = 10) {
 		super();
 		this.timeout = timeout;
 		this.start();

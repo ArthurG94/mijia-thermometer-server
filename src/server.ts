@@ -13,7 +13,7 @@ import Thermometer from './libs/Thermometer';
 	app.get('/scan/:timeout?', async (req, res) => {
 
 		try {
-			const timeout = (req.params.timeout ? parseInt(req.params.timeout) : 7);
+			const timeout = (req.params.timeout ? parseInt(req.params.timeout) : 10);
 			console.log(timeout);
 			if (isFinite(timeout) && !isNaN(timeout)) {
 				const scanner = new Scanner(timeout);
