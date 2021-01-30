@@ -1,0 +1,10 @@
+{
+	"webServer": {
+		"port": "8000"
+	},
+	"alias": {
+		"a4:c1:38:50:1e:4c": "alias1",
+ 		"a4:c1:38:4c:ad:01": "alias2",
+ 		"a4:c1:38:6d:40:c5": "alias3"
+	}
+}
