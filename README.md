@@ -13,7 +13,7 @@ Créé un serveur Web permetant de s'interfacer avec les thermomètres xaomi mij
 
 Le fichier `config.json` permet de configurer le serveur Web ainsi que les alias
 
-```json
+```js
 
 {
 	"webServer": {
